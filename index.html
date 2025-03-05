@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LiteThink - Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/13220852de.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Logo -->
+        <div class="logo">
+            <img src="unnamed.png" alt="LiteThink Logo">
+        </div>
+
+        <h1>Welcome to LiteThink</h1>
+
+        <!-- Login Button -->
+        <div class="login-section">
+            <a href="#" class="login-button" onclick="loginWithLinkedIn()">
+                <i class="fab fa-linkedin"></i> Sign in with LinkedIn
+            </a>
+        </div>
+
+        <!-- User Profile Section -->
+        <div id="profile" class="profile" style="display: none;">
+            <img id="profile-img" src="" alt="Profile Picture">
+            <h2 id="profile-name"></h2>
+            <p id="profile-headline"></p>
+            <button onclick="logout()">Logout</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
